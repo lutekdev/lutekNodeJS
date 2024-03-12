@@ -1,0 +1,78 @@
+# Estrutura do NodeJS
+---
+O Que é NodeJS:
+  - é uma plataforma para execução do JavaScript no Lado do Servidor.
+  - O NodeJS não é uma linguagem de programação.
+  - O NodeJS é um ambiente de execução.
+
+  - NodeJS é Single Thread ou Multi Thread:
+      - O Que é Processo:
+        - é um programa sendo executado.
+      - O Que é Thread:
+        - é uma pequena sequencia de instruções, que precisa de processador para ser executada uma thread pode precisar de um ou mais núcleos.
+---
+
+---
+JavaScript:
+  - Usa-se Single Thread.
+    - Executa uma linha por vez.
+---
+
+---
+Como o NodeJS é Estruturado:
+  - Core Concepts.
+  - API Nativas.
+  - API de Terceiros.
+  - API de Terceiros (Externas).
+---
+
+---
+Utilizando o NodeSchool:
+  - Acesse o link: https://nodeschool.io/
+  - Site usado para aprendizado de NodeJS, Com exemplos.
+---
+
+---
+NPM VS YARN:
+  - NPM:
+      - Node Package Manager.
+      - NPM é uma ferramenta de gerenciamento de pacotes no NodeJS.
+      - NPM não foi criado pelo NodeJS.
+  - YARN:
+      - Yarn precisa ser instalado.
+      - Yarn é mas rápido e garante que os módulos estejam na mesma ordem.
+---
+
+---
+Blocking Vs Non-Blocking:
+  - Blocking (Bloqueante):
+      - Uma conexão bloqueante é quando você tem algo rodando, e você tem que esperar aquele processo terminar para continuar.
+
+      - Quando tem o Sync.
+
+  - Non-Blocking (Não-Bloqueante):
+      - Uma conexão não bloqueante é quando você tem algo rodando e mesmo quando o processo não termina, você pode continuar.
+
+      - Quando não tem o Sync.
+---
+
+---
+NodeJS Entendendo o Núcleo:
+  - Internamente:
+      - É um ambiente de execução JavaScript.
+      - Utiliza Programação Dirigida ao Evento (EDP - Event-Driven Programming).
+      - Utiliza métodos não bloqueantes de entrada e saída.
+        - Permitindo ser leve e eficiente.
+
+  - IO:
+      - Entrada e Saida de Informações.
+        - Input (Entrada);
+        - Output (Saida);
+      - Tipos:
+          - File System.
+          - Network.
+          - DNS.
+  - LibUv (Event Loop):
+      - Estrutura de Núcleo.
+---
+
