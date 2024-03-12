@@ -4,18 +4,35 @@ O Que é NodeJS:
   - é uma plataforma para execução do JavaScript no Lado do Servidor.
   - O NodeJS não é uma linguagem de programação.
   - O NodeJS é um ambiente de execução.
+  - O NodeJS é um Single Thread.
+    - Porem ele usa o LibUV para ser Multi-Thread.
+    - Quem faz a chamada para usar o Multi-Thread, é o LibUV, conversando com o Sistema Operacional.
 
   - NodeJS é Single Thread ou Multi Thread:
       - O Que é Processo:
-        - é um programa sendo executado.
+          - é um programa sendo executado.
       - O Que é Thread:
-        - é uma pequena sequencia de instruções, que precisa de processador para ser executada uma thread pode precisar de um ou mais núcleos.
+          - é uma pequena sequencia de instruções, que precisa de processador para ser executada uma thread pode precisar de um ou mais núcleos.
+      - O Que é MultiProcessamento:
+          - é como você tivesse vários computadores executando o mesmo programa.
+      - O Que é  MultiThreading:
+          - é um único processo que dispara várias threads que são executadas ao mesmo tempo.
+      - Threading Pool:
+          - São 4 Threads e cada uma usar um processador para processar tarefas parrudas.
 ---
 
 ---
 JavaScript:
   - Usa-se Single Thread.
     - Executa uma linha por vez.
+---
+
+---
+Diferenças do __DIR Pro CWD():
+  - __dirname or __DIR:
+      - Pega o caminho absoluto do arquivo ou seja o caminho raiz do arquivo escolhido.
+  - CWD:
+      - Pega o caminho onde foi executado (chamando) o código.
 ---
 
 ---
@@ -74,5 +91,31 @@ NodeJS Entendendo o Núcleo:
           - DNS.
   - LibUv (Event Loop):
       - Estrutura de Núcleo.
+---
+
+---
+Ciclo de Vida de uma Aplicação NodeJS:
+  - Tipos de Aplicações Node:
+      - Aplicação Web;
+        - Express;
+        - Micro Serviços;
+        - Rest API;
+      - Interface de Linha de Comando;
+        - CLI;
+        - Tools (NPM, WEBPACK);
+        - Backup, Sync;
+      - IOT;
+        - Conexão com Dispositivos via porta UDP;
+        - Bibliotecas de Hardware como Johnny Five;
+        - Sensores;
+      - Aplicação Desktop;
+
+  - Chamadas Assíncronas:
+      - Assíncronas:
+          - Quando algo esta sendo executado outra coisa está acontecendo.
+          - Em Node as API são assíncronas, assim é necessário ter certeza que foram executadas;
+          - Callbacks Functions;
+          - Promises;
+          - Async/Await;
 ---
 
