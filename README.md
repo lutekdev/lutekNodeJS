@@ -33,5 +33,6 @@
 | 018 | Error - Manipulando Erros                            | [✓ Arquivo JS](nodejs.Aulas/aula.018/erro.js)         |
 | 019 | Buffer - Manipulando Dados Binários                  | [✓ Arquivo JS](nodejs.Aulas/aula.019/buffer.js)       |
 | 020 | Criando Uma Aplicação NPM Init                       | [✓ Arquivo JS](nodejs.Aulas/aula.020/index.js)        |
+| 021 | Importando Módulos Nativos com NodeJS                | [✓ Arquivo JS](nodejs.Aulas/aula.021/index.mjs)        |
 
 ---
