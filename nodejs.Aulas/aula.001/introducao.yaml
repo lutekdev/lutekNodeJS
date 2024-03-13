@@ -62,12 +62,12 @@ NPM VS YARN:
 
 ---
 Blocking Vs Non-Blocking:
-  - Blocking (Bloqueante):
+  - Blocking (Bloqueante)(Síncrono):
       - Uma conexão bloqueante é quando você tem algo rodando, e você tem que esperar aquele processo terminar para continuar.
 
       - Quando tem o Sync.
 
-  - Non-Blocking (Não-Bloqueante):
+  - Non-Blocking (Não-Bloqueante)(Assíncrono):
       - Uma conexão não bloqueante é quando você tem algo rodando e mesmo quando o processo não termina, você pode continuar.
 
       - Quando não tem o Sync.
