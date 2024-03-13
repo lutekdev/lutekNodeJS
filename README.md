@@ -2,6 +2,12 @@
 
 ## ![alt](https://user-images.githubusercontent.com/119445003/224686271-4abca4fd-933d-4bca-85c1-c9903dcd4190.png)
 
+# 😁 Dicas Do NodeJS
+
+| Títulos         | Link                                    |
+| --------------- | --------------------------------------- |
+| Dicas de NodeJS | [✓ Clique Aqui](nodejs.Dicas/README.md) |
+
 # 📚 Sumário Completo de Aulas - NodeJS - HCode
 
 | ID  | Títulos                                              | .JS                                                   |
@@ -22,6 +28,10 @@
 | 014 | HTTP, FS - Lendo Arquivo HTML e Renderizando Na Tela | [✓ Arquivo JS](nodejs.Aulas/aula.014/app.js)          |
 | 015 | Conhecendo a API DE Console                          | [✓ Arquivo JS](nodejs.Aulas/aula.015/console.js)      |
 | 016 | Events - Controlando Eventos com Event Emitter       | [✓ Arquivo JS](nodejs.Aulas/aula.016/events.js)       |
-| 016 | Child Process - Criando Processos Em Segundo Plano   | [✓ Arquivo JS](nodejs.Aulas/aula.016/child.js)       |
+| 016 | Child Process - Criando Processos Em Segundo Plano   | [✓ Arquivo JS](nodejs.Aulas/aula.016/child.js)        |
+| 017 | Path - Manipulando o Caminho de Arquivos e Pastas    | [✓ Arquivo JS](nodejs.Aulas/aula.017/pathFile.js)     |
+| 018 | Error - Manipulando Erros                            | [✓ Arquivo JS](nodejs.Aulas/aula.018/erro.js)         |
+| 019 | Buffer - Manipulando Dados Binários                  | [✓ Arquivo JS](nodejs.Aulas/aula.019/buffer.js)       |
+| 020 | Criando Uma Aplicação NPM Init                       | [✓ Arquivo JS](nodejs.Aulas/aula.020/index.js)        |
 
 ---
