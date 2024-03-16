@@ -1,7 +1,22 @@
-### get admin
+### Pegando Admin
 GET http://localhost:3000/admin
 ###
 
-### get admin with id
-GET http://localhost:3000/admin/25
+### Pegando Parâmetros com ID
+GET http://localhost:3000/admin/250
 ###
+
+### Acessando Via Post
+POST http://localhost:3000/admin
+Content-Type: application/json
+
+{
+    "login": "lutekdev",
+    "senha": "123456"
+}
+
+### Acessando Via Path
+PATCH http://localhost:3000/admin/250
+
+### Acessando Via Delete
+DELETE http://localhost:3000/admin/250
