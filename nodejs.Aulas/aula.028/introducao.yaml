@@ -1,0 +1,56 @@
+---
+MongoDb:
+  - Banco de Dados No-SQL.
+  - Baseado em Documentos.
+  - As Informações São Armazenadas no Formato de JSON.
+    - JSON no formato Binário. (BSON -> Binary JSON).
+---
+
+---
+Site Para Download:
+  - https://www.mongodb.com/try/download/community
+  - Depois de Instalado é Necessário Colocar no Path das Variáveis de Ambiente.
+---
+
+---
+Comandos:
+  - mongo
+  - use <nome da schema> -> Criando um Banco de Dados.
+
+  # Listando os Bancos de Dados.
+  - help -> Ajuda.
+  - show dbs -> Mostrando todos os Bancos de Dados.
+  - show collections -> Mostrando todas as Coleções.
+
+  # Inserindo Registros.
+  - db.clientes.insertOne({_id:1}) -> Inserindo um Registro.
+  - db.clientes.insertMany([{_id:1},{_id:2}]) -> Inserindo Vários Registros.
+    - clientes -> Nome da Coleção.
+    - Exemplo nome - "Joaquim", idade-> 25.
+
+  # Filtrando os Registros.
+  - db.clientes.find() -> Buscando os Registros.
+  - db.clientes.find({_id:1}) -> Buscando um Registro por filtro.
+  - db.clientes.find({value:5000}) -> Buscando um Registro por filtro.
+  - db.clientes.find({value:{$lt:5000}}) -> Buscando um Registro por filtro Menor Que.
+  - db.clientes.find({value:{$gt:5000}}) -> Buscando um Registro por filtro Maior Que.
+  - db.clientes.find({value:{$lte:5000}}) -> Buscando um Registro por filtro Menor Igual.
+  - db.clientes.find({value:{$gte:5000}}) -> Buscando um Registro por filtro Maior Igual.
+  - db.clientes.find($or:[{value:{$lt:5000}},{value:{$gt:5000}}]) -> Buscando um Registro por filtro Or.
+  - db.clientes.find({value:{$gt:1000}, value:${$lt:5000}}) -> Buscando um Registro por filtro And.
+
+  # Atualizando Registros.
+  - db.clientes.updateOne({_id:2},{$set:{value:5000}, $currentDate:{lastModified:true}}) -> Atualizando um Registro.
+  - db.clientes.updateMany({value:{$lt:5000}, {$set:{value:999}, $currentDate:{lastModified:true}}}) -> Atualizando Vários Registros.
+  - db.clientes.replaceOne({_id:4}, {name:"Monitor LG 4K"}) -> Substituindo um Registro.
+
+  # Removendo Registros.
+  - db.clientes.deleteOne({_id:1}) -> Removendo um Registro.
+  - db.clientes.deleteMany({value:{$lt:5000}}) -> Removendo Vários Registros.
+  - db.clientes.deleteMany({}) -> Removendo Todos os Registros.
+
+  # Alterando os Database's.
+  - Para Trocar de Banco:
+      - use <nome da schema> -> Trocar de Banco.
+---
+
