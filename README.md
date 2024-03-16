@@ -36,5 +36,9 @@
 | 021 | Importando Módulos Nativos com NodeJS                  | [✓ Arquivo JS](nodejs.Aulas/aula.021/index.mjs)       |
 | 022 | Executando Processo em Segundo Plano com Child Process | [✓ Arquivo JS](nodejs.Aulas/aula.022/index.js)        |
 | 023 | Criando a Chamada Para Compreensão Dos Vídeos          | [✓ Arquivo JS](nodejs.Aulas/aula.023/index.js)        |
+| 024 | Instalando o Express - Introdução                      | [✓ Arquivo JS](nodejs.Aulas/aula.024/introducao.yaml) |
+| 025 | Instalando o Express - Instalando                      | [✓ Arquivo JS](nodejs.Aulas/aula.025/appLutek/app.js) |
+| 026 | Criando Uma Aplicação Web Com Express                  | [✓ Arquivo JS](nodejs.Aulas/aula.025/app.js)          |
+| 026 | Criando Rotas Com Express                              | [✓ Arquivo JS](nodejs.Aulas/aula.026/app.js)          |
 
 ---

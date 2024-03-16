@@ -1,0 +1,60 @@
+---
+API DE TERCEIROS:
+  - Express:
+      - Framework Web Rápido.
+      - Flexível.
+      - Minimalista para NodeJS.
+---
+
+---
+Por que Utilizar o Express:
+  - Rotas.
+  - Middleware.
+  - Templates.
+  - MVC (Model, View, Controller).
+---
+
+---
+O Que São Rotas:
+  - Caminhos, que utilizamos para chegar a um ponto final ou Endpoint.
+---
+
+---
+O Que são Middlewares:
+  - Middleware é como uma camada que será aplicada entre a requisição do usuário e a aplicação.
+  - Middleware é um bloco de código que pode ser executado antes ou depois de uma requisição.
+---
+
+---
+O Que são Templates:
+  - PUG ficou no lugar de Jade.
+  - É uma maneira otimizada de escrever HTML e CSS para o usuário usando o JavaScript.
+---
+
+---
+Estruturando uma Aplicação:
+  - App.js
+  - bin
+    - www
+  - package.json
+  - public
+    - images
+    - javascripts
+    - stylesheets
+    - style.css
+  - routes
+    - index.js
+    - users
+  - views
+    - error.pug
+    - index.pug
+    - layout.pug
+---
+
+---
+Instalação:
+  - npm install express-generator -> Para Instalar o Modulo Express.
+  - express <nome de projeto> --view=pug
+  - npx express-generator <nome de projeto> -> Versões Mais Modernas do NodeJS, não precisa do Módulo do Express.
+---
+
