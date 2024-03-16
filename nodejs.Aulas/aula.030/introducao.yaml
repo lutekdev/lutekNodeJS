@@ -1,0 +1,32 @@
+---
+O QUE É REST API:
+  - REST:
+      - Representational State Transfer (Representação de estado de transferência)
+      - Ex -> Eu tenho uma informação e quero transferir essa informação para alguém.
+---
+
+---
+Métodos:
+  - GET
+  - POST
+  - PUT
+  - PATCH
+  - DELETE
+  - HEAD
+  - OPTIONS
+
+  - CRUD:
+      - CREATE (POST)
+      - READ (GET)
+      - UPDATE (PUT/PATCH)
+      - DELETE (DELETE)
+---
+
+---
+Como Garantir A Segurança de Uma Rest API:
+  - Passport
+  - Autenticação em Nível de Banco de Dados
+  - JWT
+  - Bearer Token
+---
+

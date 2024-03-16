@@ -1,0 +1,28 @@
+### GET
+GET http://localhost:3000/subscribers
+###
+
+### POST
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "userName": "LutekDev",
+    "userChannel": "HCodeBrasil"
+}
+###
+GET http://localhost:3000/subscribers/65f6072fb89fc260752de137
+###
+
+### DELETE
+DELETE http://localhost:3000/subscribers/65f60f3eda52a8c55023994d
+###
+
+### PATCH
+PATCH http://localhost:3000/subscribers/65f6072fb89fc260752de137
+Content-Type: application/json
+
+{
+    "userName": "LutekDev",
+    "userChannel": "LutekInc."
+}

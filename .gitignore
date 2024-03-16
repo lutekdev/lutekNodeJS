@@ -1,10 +1,9 @@
 # Arquivos e Pastas que devem ser ignorados.
-.node_modules/
+**/node_modules/
 .vscode/
 *.zip
 *.log
 *.rar
 *.gz
 *.txt
-nodejs.Aulas/aula.022/ffmpeg/
-nodejs.Aulas/aula.023/ffmpeg/
+**/ffmpeg/
