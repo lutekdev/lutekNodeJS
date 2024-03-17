@@ -1,0 +1,22 @@
+### MOSTRANDO TODOS OS CLIENTES
+GET http://localhost:3000/clients
+###
+
+### ADICIONANDO NOVO CLIENTE
+POST http://localhost:3000/clients
+Content-Type: application/json
+
+{
+    "_id": "005",
+    "nome": "LutekDev",
+    "fone": "123456789"
+}
+###
+
+### DELETE TODOS OS CLIENTES
+DELETE http://localhost:3000/clients
+###
+
+### DELETE PER ID
+DELETE http://localhost:3000/clients/006
+###
