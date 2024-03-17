@@ -47,3 +47,9 @@
 | 031   | Criando o Diretório, Instalando Express, Mongoose, dotenv e Nodemon | [✓ Arquivo JS](nodejs.Aulas/HCode.Aulas/aula.031/server.js)       |
 
 ---
+
+# 📚 Projetos Pessoais
+
+| Projeto Nome    | .JS                                                   |
+| --------------- | ----------------------------------------------------- |
+| API SuperMarket | [✓ Arquivo JS](nodejs.Projeto/SuperMarketRest/app.js) |
